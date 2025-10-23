@@ -28,7 +28,7 @@ const CarManager = () => {
       const res = await axios.get(`${baseUrl}/all`);
       setCars(res.data);
     } catch (error) {
-      setMessage('Failed to fetch cars.');
+      setMessage('Faileddd to fetch cars.');
     }
   };
 
